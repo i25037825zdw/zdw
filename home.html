@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guilin - Home</title>
+  <link href="./css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="main">
+    <div class="header">
+      <div class="header_resize">
+        <div class="logo">
+          <h1><a href="index.html">Guilin</a> <small>East or west, Guilin landscape is the best.</small></h1>
+        </div>
+        <div class="menu_nav">
+          <ul>
+            <li class="active"><a href="home.html">Home</a></li>
+            <li><a href="fengjing.html">Scenery</a></li>
+            <li><a href="food.html">Cuisine</a></li>
+          </ul>
+        </div>
+        <div class="clr"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="content_resize">
+        <a href="index.html" class="back-welcome">Back to Welcome</a>
+
+        <div class="carousel-wrap">
+          <div class="carousel-inner" id="carouselInner">
+            <div class="carousel-slide">
+              <img src="images/img1.jpg" alt="Guilin Landscape">
+              <div class="carousel-caption">
+                <h3>Li River Cruise</h3>
+                <p>Sail through the most beautiful karst landscape in the world along the legendary Li River.</p>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <img src="images/b1.png" alt="Elephant Trunk Hill">
+              <div class="carousel-caption">
+                <h3>Elephant Trunk Hill</h3>
+                <p>The iconic symbol of Guilin, a hill shaped like a giant elephant drinking from the river.</p>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <img src="images/b5.png" alt="Yangshuo">
+              <div class="carousel-caption">
+                <h3>Yangshuo Countryside</h3>
+                <p>Experience the stunning countryside with endless rice paddies and towering karst peaks.</p>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <img src="images/b3.png" alt="Longji Terraces">
+              <div class="carousel-caption">
+                <h3>Longji Rice Terraces</h3>
+                <p>Marvel at the magnificent terraced rice fields cascading down the mountainside.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-btn prev" onclick="moveCarousel(-1)">&#10094;</button>
+          <button class="carousel-btn next" onclick="moveCarousel(1)">&#10095;</button>
+        </div>
+        <div class="carousel-dots" id="carouselDots">
+          <span class="dot active" onclick="goToSlide(0)"></span>
+          <span class="dot" onclick="goToSlide(1)"></span>
+          <span class="dot" onclick="goToSlide(2)"></span>
+          <span class="dot" onclick="goToSlide(3)"></span>
+        </div>
+
+        <div class="home-highlight">
+          <div class="hl-img"><img src="images/b5.png" alt="Li River"></div>
+          <div class="hl-text">
+            <h2>The Legendary Li River</h2>
+            <p>Stretching 83 kilometers from Guilin to Yangshuo, the Li River is like a jade ribbon winding through towering karst peaks. As you cruise along its waters, you will be mesmerized by the ever-changing scenery: dramatic limestone formations reflected perfectly in the crystal-clear water, bamboo rafts gliding peacefully, cormorant fishermen casting their nets at sunset, and idyllic villages nestled along the riverbanks. It is no wonder that the Li River is celebrated as one of the most beautiful river journeys in the world.</p>
+            <a href="fengjing.html" class="hl-link">Explore Scenery &raquo;</a>
+          </div>
+        </div>
+
+        <div class="home-intro">
+          <div class="intro-card">
+            <img src="images/b4.png" alt="Reed Flute Cave">
+            <h3>Reed Flute Cave</h3>
+            <p>A spectacular limestone cave with colorful lighting illuminating stunning stalactites, stalagmites, and rock formations. Known as the "Palace of Natural Art," this cave has been a popular attraction for over 1,200 years.</p>
+          </div>
+          <div class="intro-card">
+            <img src="images/b2.png" alt="Zhenpiyan">
+            <h3>Zhenpiyan Heritage Site</h3>
+            <p>An important archaeological site that reveals 10,000 years of human history. Discover the origins of pottery making and the remarkable intelligence of ancient civilizations that once thrived in this region.</p>
+          </div>
+        </div>
+
+
+        <div class="home-highlight reverse">
+          <div class="hl-img"><img src="images/c1.jpg" alt="Guilin Cuisine"></div>
+          <div class="hl-text">
+            <h2>A Taste of Guilin</h2>
+            <p>Guilin's culinary scene is a feast for the senses. The city is famous for its Rice Noodles, a beloved dish made from carefully selected early indica rice served with rich broth and toppings like fried peanuts, pickled beans, and fresh herbs. Beyond noodles, you can savor the Three Treasures of Guilin including Fermented Tofu and Sanhua Wine, or try unique local specialties like Stuffed River Snails and Gongcheng Oil Tea. Every bite tells a story of this region's rich heritage.</p>
+            <a href="food.html" class="hl-link">Discover Cuisine &raquo;</a>
+          </div>
+        </div>
+
+        <div class="home-testimonials">
+          <div class="t-card">
+            <div class="t-avatar">J</div>
+            <div class="t-name">James W.</div>
+            <div class="t-text">"The Li River cruise was absolutely breathtaking. The karst mountains rising from the mist felt like stepping into a traditional Chinese painting. A truly unforgettable experience."</div>
+          </div>
+          <div class="t-card">
+            <div class="t-avatar">M</div>
+            <div class="t-name">Maria L.</div>
+            <div class="t-text">"Guilin exceeded all my expectations. From the Reed Flute Cave's magical formations to the delicious rice noodles at every corner, this city has something special for every traveler."</div>
+          </div>
+          <div class="t-card">
+            <div class="t-avatar">T</div>
+            <div class="t-name">Takeshi K.</div>
+            <div class="t-text">"Standing on the Longji Rice Terraces at sunrise was a moment of pure wonder. The layers of golden fields stretching into the distance is a sight I will carry with me forever."</div>
+          </div>
+        </div>
+
+        <div class="home-banner">
+          <h2>Start Your Guilin Adventure</h2>
+          <p>Plan your trip today and discover why generations of poets and travelers have called Guilin the finest landscape under heaven.</p>
+        </div>
+
+        <div class="home-intro">
+          <div class="intro-card">
+            <img src="images/c2.jpg" alt="Guilin Tofu">
+            <h3>Guilin Fermented Tofu</h3>
+            <p>One of the Three Treasures of Guilin, this fermented tofu is known for its thin skin, tender texture, and exquisite flavor. Available in both five-spice and chili varieties, it is a perfect souvenir.</p>
+          </div>
+          <div class="intro-card">
+            <img src="images/b3.png" alt="Longji Terraces">
+            <h3>Longji Rice Terraces</h3>
+            <p>Known as the "Dragon's Backbone," these magnificent terraced fields cascade from the mountain foot to the summit like chains or ribbons, offering spectacular views that change with each season.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fbg">
+      <div class="fbg_resize">
+        <div class="col c1">
+          <h2><span>Gallery</span></h2>
+          <a href="#"><img src="images/pix1.jpg" width="58" height="58" alt="pix" /></a>
+          <a href="#"><img src="images/pix2.jpg" width="58" height="58" alt="pix" /></a>
+          <a href="#"><img src="images/pix3.jpg" width="58" height="58" alt="pix" /></a>
+          <a href="#"><img src="images/pix4.jpg" width="58" height="58" alt="pix" /></a>
+          <a href="#"><img src="images/pix5.jpg" width="58" height="58" alt="pix" /></a>
+          <a href="#"><img src="images/pix6.jpg" width="58" height="58" alt="pix" /></a>
+        </div>
+        <div class="col c2">
+          <h2><span>Top Attractions</span></h2>
+          <p>Li River, Yulong River, Ten-Mile Gallery, Seven Star Park, West Street, Crown Cave, Nine Horses Fresco Hill</p>
+        </div>
+        <div class="col c3">
+          <h2><span>Contact</span></h2>
+          <p>Guilin Tourism</p>
+          <p>i25037825@student.newintiedu.my</p>
+        </div>
+        <div class="clr"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer_resize">
+        <p class="lf">&copy; Guilin Landscape -  i25037825@student.newintiedu.my</p>
+        <div class="clr"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var currentSlide = 0;
+    var totalSlides = 4;
+    var autoPlay;
+
+    function moveCarousel(direction) {
+      currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+      updateCarousel();
+      resetAutoPlay();
+    }
+
+    function goToSlide(index) {
+      currentSlide = index;
+      updateCarousel();
+      resetAutoPlay();
+    }
+
+    function updateCarousel() {
+      var inner = document.getElementById('carouselInner');
+      inner.style.transform = 'translateX(-' + (currentSlide * 25) + '%)';
+      var dots = document.querySelectorAll('#carouselDots .dot');
+      for (var i = 0; i < dots.length; i++) {
+        dots[i].className = 'dot' + (i === currentSlide ? ' active' : '');
+      }
+    }
+
+    function resetAutoPlay() {
+      clearInterval(autoPlay);
+      autoPlay = setInterval(function() { moveCarousel(1); }, 4000);
+    }
+
+    resetAutoPlay();
+  </script>
+</body>
+</html>
